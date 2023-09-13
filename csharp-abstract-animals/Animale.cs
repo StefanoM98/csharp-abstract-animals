@@ -13,6 +13,8 @@ namespace csharp_abstract_animals
             Console.WriteLine("zzzz");
         }
 
+        public abstract void GetName();
+
         public abstract void Verso();
 
         public abstract void CosaMangi();
