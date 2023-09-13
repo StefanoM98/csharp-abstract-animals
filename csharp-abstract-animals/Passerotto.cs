@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace csharp_abstract_animals
 {
-    public class Passerotto : Animale
+    public class Passerotto : Animale, IVolante
     {
         public override void GetName()
         {
@@ -20,6 +20,11 @@ namespace csharp_abstract_animals
         public override void CosaMangi()
         {
             Console.WriteLine("Mangio la mela e semini");
+        }
+
+        public void Vola()
+        {
+            Console.WriteLine("Sto volando Jack!");
         }
     }
 }

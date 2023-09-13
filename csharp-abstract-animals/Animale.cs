@@ -19,5 +19,6 @@ namespace csharp_abstract_animals
 
         public abstract void CosaMangi();
 
+
     }
 }

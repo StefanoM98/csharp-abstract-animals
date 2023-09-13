@@ -24,8 +24,16 @@
                 Console.WriteLine();
                 animale.Verso();
                 Console.WriteLine();
+                animale.Dormi();
+                Console.WriteLine();
 
             }
+
+            aquila.Vola();
+
+            delfino.Nuota();
+
+            passerotto.Vola();
         }
     }
 }
